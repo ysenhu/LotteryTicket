@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2A7E32197ACA7300120C2C /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7E31197ACA7300120C2C /* TabBarButton.m */; };
 		5FB94088197AAE0100C6FF58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB94087197AAE0100C6FF58 /* Foundation.framework */; };
 		5FB9408A197AAE0100C6FF58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB94089197AAE0100C6FF58 /* CoreGraphics.framework */; };
 		5FB9408C197AAE0100C6FF58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB9408B197AAE0100C6FF58 /* UIKit.framework */; };
 		5FB94092197AAE0100C6FF58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB94090197AAE0100C6FF58 /* InfoPlist.strings */; };
 		5FB94094197AAE0100C6FF58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94093197AAE0100C6FF58 /* main.m */; };
 		5FB94098197AAE0100C6FF58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94097197AAE0100C6FF58 /* AppDelegate.m */; };
-		5FB9409A197AAE0100C6FF58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB94099197AAE0100C6FF58 /* Images.xcassets */; };
 		5FB940A1197AAE0100C6FF58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB940A0197AAE0100C6FF58 /* XCTest.framework */; };
 		5FB940A2197AAE0100C6FF58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB94087197AAE0100C6FF58 /* Foundation.framework */; };
 		5FB940A3197AAE0100C6FF58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB9408B197AAE0100C6FF58 /* UIKit.framework */; };
 		5FB940AB197AAE0100C6FF58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB940A9197AAE0100C6FF58 /* InfoPlist.strings */; };
 		5FB940AD197AAE0100C6FF58 /* LotteryTicketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940AC197AAE0100C6FF58 /* LotteryTicketTests.m */; };
+		5FB940C8197AB39300C6FF58 /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940C7197AB39300C6FF58 /* HallViewController.m */; };
+		5FB940CB197AB3AB00C6FF58 /* UnionBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940CA197AB3AB00C6FF58 /* UnionBuyViewController.m */; };
+		5FB940CE197AB3C500C6FF58 /* LuckyNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940CD197AB3C500C6FF58 /* LuckyNumberViewController.m */; };
+		5FB940D1197AB3DA00C6FF58 /* LotteryInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940D0197AB3DA00C6FF58 /* LotteryInfoViewController.m */; };
+		5FB940D4197AB3F000C6FF58 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940D3197AB3F000C6FF58 /* MineViewController.m */; };
+		5FB940DB197AB50400C6FF58 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940DA197AB50400C6FF58 /* MainViewController.m */; };
+		5FB940E1197AB83E00C6FF58 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940DE197AB83E00C6FF58 /* BaseNavigationController.m */; };
+		5FB940E2197AB83E00C6FF58 /* TabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940E0197AB83E00C6FF58 /* TabbarItem.m */; };
+		5FB940EE197ABE2E00C6FF58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB940ED197ABE2E00C6FF58 /* Images.xcassets */; };
+		5FB940F3197ABFFC00C6FF58 /* UIBarButtonItem+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940F0197ABFFC00C6FF58 /* UIBarButtonItem+add.m */; };
+		5FB940F4197ABFFC00C6FF58 /* UINavigationItem+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940F2197ABFFC00C6FF58 /* UINavigationItem+add.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F2A7E30197ACA7300120C2C /* TabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
+		5F2A7E31197ACA7300120C2C /* TabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
 		5FB94084197AAE0100C6FF58 /* LotteryTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB94087197AAE0100C6FF58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FB94089197AAE0100C6FF58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,12 +55,33 @@
 		5FB94095197AAE0100C6FF58 /* LotteryTicket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LotteryTicket-Prefix.pch"; sourceTree = "<group>"; };
 		5FB94096197AAE0100C6FF58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FB94097197AAE0100C6FF58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5FB94099197AAE0100C6FF58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5FB9409F197AAE0100C6FF58 /* LotteryTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB940A0197AAE0100C6FF58 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5FB940A8197AAE0100C6FF58 /* LotteryTicketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LotteryTicketTests-Info.plist"; sourceTree = "<group>"; };
 		5FB940AA197AAE0100C6FF58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FB940AC197AAE0100C6FF58 /* LotteryTicketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryTicketTests.m; sourceTree = "<group>"; };
+		5FB940C6197AB39300C6FF58 /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
+		5FB940C7197AB39300C6FF58 /* HallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallViewController.m; sourceTree = "<group>"; };
+		5FB940C9197AB3AB00C6FF58 /* UnionBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionBuyViewController.h; sourceTree = "<group>"; };
+		5FB940CA197AB3AB00C6FF58 /* UnionBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionBuyViewController.m; sourceTree = "<group>"; };
+		5FB940CC197AB3C500C6FF58 /* LuckyNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyNumberViewController.h; sourceTree = "<group>"; };
+		5FB940CD197AB3C500C6FF58 /* LuckyNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyNumberViewController.m; sourceTree = "<group>"; };
+		5FB940CF197AB3DA00C6FF58 /* LotteryInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryInfoViewController.h; sourceTree = "<group>"; };
+		5FB940D0197AB3DA00C6FF58 /* LotteryInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryInfoViewController.m; sourceTree = "<group>"; };
+		5FB940D2197AB3F000C6FF58 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		5FB940D3197AB3F000C6FF58 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		5FB940D9197AB50400C6FF58 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5FB940DA197AB50400C6FF58 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5FB940DD197AB83E00C6FF58 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		5FB940DE197AB83E00C6FF58 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		5FB940DF197AB83E00C6FF58 /* TabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarItem.h; sourceTree = "<group>"; };
+		5FB940E0197AB83E00C6FF58 /* TabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarItem.m; sourceTree = "<group>"; };
+		5FB940E3197AB88700C6FF58 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		5FB940ED197ABE2E00C6FF58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5FB940EF197ABFFC00C6FF58 /* UIBarButtonItem+add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+add.h"; sourceTree = "<group>"; };
+		5FB940F0197ABFFC00C6FF58 /* UIBarButtonItem+add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+add.m"; sourceTree = "<group>"; };
+		5FB940F1197ABFFC00C6FF58 /* UINavigationItem+add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+add.h"; sourceTree = "<group>"; };
+		5FB940F2197ABFFC00C6FF58 /* UINavigationItem+add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+add.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +141,18 @@
 		5FB9408D197AAE0100C6FF58 /* LotteryTicket */ = {
 			isa = PBXGroup;
 			children = (
+				5FB940E4197AB91300C6FF58 /* Category */,
+				5FB940DC197AB83E00C6FF58 /* BaseView */,
+				5FB940C5197AB37B00C6FF58 /* Hall */,
+				5FB940C4197AB36F00C6FF58 /* UnionBuy */,
+				5FB940C3197AB36300C6FF58 /* LuckyNumber */,
+				5FB940B9197AB1B800C6FF58 /* LotteryInfo */,
+				5FB940BB197AB1D500C6FF58 /* Mine */,
+				5FB940BC197AB1E300C6FF58 /* Settings */,
+				5FB940D8197AB4F100C6FF58 /* Main */,
 				5FB94096197AAE0100C6FF58 /* AppDelegate.h */,
 				5FB94097197AAE0100C6FF58 /* AppDelegate.m */,
-				5FB94099197AAE0100C6FF58 /* Images.xcassets */,
+				5FB940E3197AB88700C6FF58 /* common.h */,
 				5FB9408E197AAE0100C6FF58 /* Supporting Files */,
 			);
 			path = LotteryTicket;
@@ -118,6 +161,7 @@
 		5FB9408E197AAE0100C6FF58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5FB940ED197ABE2E00C6FF58 /* Images.xcassets */,
 				5FB9408F197AAE0100C6FF58 /* LotteryTicket-Info.plist */,
 				5FB94090197AAE0100C6FF58 /* InfoPlist.strings */,
 				5FB94093197AAE0100C6FF58 /* main.m */,
@@ -142,6 +186,91 @@
 				5FB940A9197AAE0100C6FF58 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB940B9197AB1B800C6FF58 /* LotteryInfo */ = {
+			isa = PBXGroup;
+			children = (
+				5FB940CF197AB3DA00C6FF58 /* LotteryInfoViewController.h */,
+				5FB940D0197AB3DA00C6FF58 /* LotteryInfoViewController.m */,
+			);
+			path = LotteryInfo;
+			sourceTree = "<group>";
+		};
+		5FB940BB197AB1D500C6FF58 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				5FB940D2197AB3F000C6FF58 /* MineViewController.h */,
+				5FB940D3197AB3F000C6FF58 /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		5FB940BC197AB1E300C6FF58 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5FB940C3197AB36300C6FF58 /* LuckyNumber */ = {
+			isa = PBXGroup;
+			children = (
+				5FB940CC197AB3C500C6FF58 /* LuckyNumberViewController.h */,
+				5FB940CD197AB3C500C6FF58 /* LuckyNumberViewController.m */,
+			);
+			path = LuckyNumber;
+			sourceTree = "<group>";
+		};
+		5FB940C4197AB36F00C6FF58 /* UnionBuy */ = {
+			isa = PBXGroup;
+			children = (
+				5FB940C9197AB3AB00C6FF58 /* UnionBuyViewController.h */,
+				5FB940CA197AB3AB00C6FF58 /* UnionBuyViewController.m */,
+			);
+			path = UnionBuy;
+			sourceTree = "<group>";
+		};
+		5FB940C5197AB37B00C6FF58 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				5FB940C6197AB39300C6FF58 /* HallViewController.h */,
+				5FB940C7197AB39300C6FF58 /* HallViewController.m */,
+			);
+			path = Hall;
+			sourceTree = "<group>";
+		};
+		5FB940D8197AB4F100C6FF58 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5FB940D9197AB50400C6FF58 /* MainViewController.h */,
+				5FB940DA197AB50400C6FF58 /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5FB940DC197AB83E00C6FF58 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				5FB940DD197AB83E00C6FF58 /* BaseNavigationController.h */,
+				5FB940DE197AB83E00C6FF58 /* BaseNavigationController.m */,
+				5FB940DF197AB83E00C6FF58 /* TabbarItem.h */,
+				5FB940E0197AB83E00C6FF58 /* TabbarItem.m */,
+				5F2A7E30197ACA7300120C2C /* TabBarButton.h */,
+				5F2A7E31197ACA7300120C2C /* TabBarButton.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		5FB940E4197AB91300C6FF58 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5FB940EF197ABFFC00C6FF58 /* UIBarButtonItem+add.h */,
+				5FB940F0197ABFFC00C6FF58 /* UIBarButtonItem+add.m */,
+				5FB940F1197ABFFC00C6FF58 /* UINavigationItem+add.h */,
+				5FB940F2197ABFFC00C6FF58 /* UINavigationItem+add.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FB94092197AAE0100C6FF58 /* InfoPlist.strings in Resources */,
-				5FB9409A197AAE0100C6FF58 /* Images.xcassets in Resources */,
+				5FB940EE197ABE2E00C6FF58 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +368,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB940CE197AB3C500C6FF58 /* LuckyNumberViewController.m in Sources */,
+				5FB940D4197AB3F000C6FF58 /* MineViewController.m in Sources */,
+				5FB940E2197AB83E00C6FF58 /* TabbarItem.m in Sources */,
 				5FB94098197AAE0100C6FF58 /* AppDelegate.m in Sources */,
+				5FB940DB197AB50400C6FF58 /* MainViewController.m in Sources */,
+				5FB940C8197AB39300C6FF58 /* HallViewController.m in Sources */,
+				5FB940E1197AB83E00C6FF58 /* BaseNavigationController.m in Sources */,
 				5FB94094197AAE0100C6FF58 /* main.m in Sources */,
+				5FB940F3197ABFFC00C6FF58 /* UIBarButtonItem+add.m in Sources */,
+				5FB940D1197AB3DA00C6FF58 /* LotteryInfoViewController.m in Sources */,
+				5F2A7E32197ACA7300120C2C /* TabBarButton.m in Sources */,
+				5FB940F4197ABFFC00C6FF58 /* UINavigationItem+add.m in Sources */,
+				5FB940CB197AB3AB00C6FF58 /* UnionBuyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LotteryTicket/LotteryTicket-Prefix.pch";
 				INFOPLIST_FILE = "LotteryTicket/LotteryTicket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LotteryTicket/LotteryTicket-Prefix.pch";
 				INFOPLIST_FILE = "LotteryTicket/LotteryTicket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +579,7 @@
 				5FB940B2197AAE0100C6FF58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FB940B3197AAE0100C6FF58 /* Build configuration list for PBXNativeTarget "LotteryTicketTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +588,7 @@
 				5FB940B5197AAE0100C6FF58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
