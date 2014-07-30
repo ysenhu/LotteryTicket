@@ -9,8 +9,9 @@
 #import "SettingsViewController.h"
 #import "SettingsViewCell.h"
 #import "SettingsItem.h"
+#import "PushNoticeViewController.h"
 
-@interface SettingsViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface SettingsViewController ()
 {
     NSArray *_data;
 }
@@ -28,7 +29,7 @@
     // backgroundView的优先级 > backgroundColor
     self.tableView.backgroundView = nil;
     //    // 0~1
-//    self.tableView.backgroundColor = kGlobalBg;
+    self.tableView.backgroundColor = kGlobalBg;
     
     // 2.设置tableView每组头部的高度
     self.tableView.sectionHeaderHeight = 5;
@@ -54,8 +55,14 @@
     return [_data[section] count];
 }
 
-
-#pragma mark - UITableViewDelegate
+//- (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
+//{
+//}
+//
+//- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+//{
+//    
+//}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -77,5 +84,62 @@
     return cell;
 }
 
+#pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    if (indexPath.section == 0) {
+        switch (indexPath.row) {
+            case 0:     //推送和提醒
+            {
+                PushNoticeViewController *push = [[PushNoticeViewController alloc] initWithStyle:UITableViewStyleGrouped];
+                [self.navigationController pushViewController:push animated:YES];
+            }
+                break;
+            case 1:     //摇一摇机选
+                
+                break;
+            case 2:     //声音效果
+                
+                break;
+            case 3:     //推送和提醒
+                
+                break;
+                
+            default:
+                break;
+        }
+    } else if (indexPath.section == 1) {
+        switch (indexPath.row) {
+            case 0:     //检查新版本
+            {
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提醒" message:@"暂时没有新版本" delegate:nil cancelButtonTitle:@"好的" otherButtonTitles:nil, nil];
+                [alert show];
+            }
+                break;
+            case 1:     //帮助
+                
+                break;
+            case 2:     //分享
+                
+                break;
+            case 3:     //检查更多
+                
+                break;
+                break;
+            case 4:     //产品推荐
+                
+                break;
+            case 5:     //关于
+                
+                break;
+                
+            default:
+                break;
+        }
+    }
+    
+}
 
 @end

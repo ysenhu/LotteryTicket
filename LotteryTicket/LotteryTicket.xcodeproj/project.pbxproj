@@ -34,6 +34,8 @@
 		5FCEA99C1987E6CB00791EF6 /* More.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FCEA99B1987E6CB00791EF6 /* More.plist */; };
 		5FCEA99F1988844D00791EF6 /* SettingsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCEA99E1988844D00791EF6 /* SettingsViewCell.m */; };
 		5FCEA9A21988848700791EF6 /* SettingsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCEA9A11988848700791EF6 /* SettingsItem.m */; };
+		5FCEA9A519889FEB00791EF6 /* PushNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCEA9A419889FEB00791EF6 /* PushNoticeViewController.m */; };
+		5FCEA9A71988A11700791EF6 /* PushNotice.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FCEA9A61988A11700791EF6 /* PushNotice.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,9 @@
 		5FCEA99E1988844D00791EF6 /* SettingsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewCell.m; sourceTree = "<group>"; };
 		5FCEA9A01988848700791EF6 /* SettingsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsItem.h; sourceTree = "<group>"; };
 		5FCEA9A11988848700791EF6 /* SettingsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsItem.m; sourceTree = "<group>"; };
+		5FCEA9A319889FEB00791EF6 /* PushNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNoticeViewController.h; sourceTree = "<group>"; };
+		5FCEA9A419889FEB00791EF6 /* PushNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNoticeViewController.m; sourceTree = "<group>"; };
+		5FCEA9A61988A11700791EF6 /* PushNotice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushNotice.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +177,7 @@
 		5FB9408E197AAE0100C6FF58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5FCEA9A61988A11700791EF6 /* PushNotice.plist */,
 				5FCEA99B1987E6CB00791EF6 /* More.plist */,
 				5FB940ED197ABE2E00C6FF58 /* Images.xcassets */,
 				5FB9408F197AAE0100C6FF58 /* LotteryTicket-Info.plist */,
@@ -227,6 +233,8 @@
 				5FCEA99E1988844D00791EF6 /* SettingsViewCell.m */,
 				5FCEA9A01988848700791EF6 /* SettingsItem.h */,
 				5FCEA9A11988848700791EF6 /* SettingsItem.m */,
+				5FCEA9A319889FEB00791EF6 /* PushNoticeViewController.h */,
+				5FCEA9A419889FEB00791EF6 /* PushNoticeViewController.m */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -366,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCEA9A71988A11700791EF6 /* PushNotice.plist in Resources */,
 				5FCEA99C1987E6CB00791EF6 /* More.plist in Resources */,
 				5FB94092197AAE0100C6FF58 /* InfoPlist.strings in Resources */,
 				5FB940EE197ABE2E00C6FF58 /* Images.xcassets in Resources */,
@@ -392,6 +401,7 @@
 				5FB940E2197AB83E00C6FF58 /* TabbarItem.m in Sources */,
 				5FB94098197AAE0100C6FF58 /* AppDelegate.m in Sources */,
 				5FB940DB197AB50400C6FF58 /* MainViewController.m in Sources */,
+				5FCEA9A519889FEB00791EF6 /* PushNoticeViewController.m in Sources */,
 				5FCEA99F1988844D00791EF6 /* SettingsViewCell.m in Sources */,
 				5FB940C8197AB39300C6FF58 /* HallViewController.m in Sources */,
 				5FB940E1197AB83E00C6FF58 /* BaseNavigationController.m in Sources */,

@@ -15,3 +15,6 @@
     #import <Foundation/Foundation.h>
     #import "common.h"
 #endif
+
+// 全局的背景色
+#define kGlobalBg kColor(230, 230, 230)
