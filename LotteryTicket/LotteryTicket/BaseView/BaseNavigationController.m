@@ -52,7 +52,7 @@
     // 4.设置导航栏按钮文字颜色为白色
     [barItem setTitleTextAttributes:@{
                                       UITextAttributeTextColor : [UIColor whiteColor],
-                                      UITextAttributeFont : [UIFont systemFontOfSize:13]
+                                      UITextAttributeFont : [UIFont systemFontOfSize:14]
                                       } forState:UIControlStateNormal];
 
 }

@@ -30,6 +30,10 @@
 		5FB940EE197ABE2E00C6FF58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB940ED197ABE2E00C6FF58 /* Images.xcassets */; };
 		5FB940F3197ABFFC00C6FF58 /* UIBarButtonItem+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940F0197ABFFC00C6FF58 /* UIBarButtonItem+add.m */; };
 		5FB940F4197ABFFC00C6FF58 /* UINavigationItem+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB940F2197ABFFC00C6FF58 /* UINavigationItem+add.m */; };
+		5FCEA99A1987DFFB00791EF6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCEA9991987DFFB00791EF6 /* SettingsViewController.m */; };
+		5FCEA99C1987E6CB00791EF6 /* More.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FCEA99B1987E6CB00791EF6 /* More.plist */; };
+		5FCEA99F1988844D00791EF6 /* SettingsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCEA99E1988844D00791EF6 /* SettingsViewCell.m */; };
+		5FCEA9A21988848700791EF6 /* SettingsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCEA9A11988848700791EF6 /* SettingsItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,13 @@
 		5FB940F0197ABFFC00C6FF58 /* UIBarButtonItem+add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+add.m"; sourceTree = "<group>"; };
 		5FB940F1197ABFFC00C6FF58 /* UINavigationItem+add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+add.h"; sourceTree = "<group>"; };
 		5FB940F2197ABFFC00C6FF58 /* UINavigationItem+add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+add.m"; sourceTree = "<group>"; };
+		5FCEA9981987DFFB00791EF6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		5FCEA9991987DFFB00791EF6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		5FCEA99B1987E6CB00791EF6 /* More.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = More.plist; sourceTree = "<group>"; };
+		5FCEA99D1988844D00791EF6 /* SettingsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewCell.h; sourceTree = "<group>"; };
+		5FCEA99E1988844D00791EF6 /* SettingsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewCell.m; sourceTree = "<group>"; };
+		5FCEA9A01988848700791EF6 /* SettingsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsItem.h; sourceTree = "<group>"; };
+		5FCEA9A11988848700791EF6 /* SettingsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +172,7 @@
 		5FB9408E197AAE0100C6FF58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5FCEA99B1987E6CB00791EF6 /* More.plist */,
 				5FB940ED197ABE2E00C6FF58 /* Images.xcassets */,
 				5FB9408F197AAE0100C6FF58 /* LotteryTicket-Info.plist */,
 				5FB94090197AAE0100C6FF58 /* InfoPlist.strings */,
@@ -209,6 +221,12 @@
 		5FB940BC197AB1E300C6FF58 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				5FCEA9981987DFFB00791EF6 /* SettingsViewController.h */,
+				5FCEA9991987DFFB00791EF6 /* SettingsViewController.m */,
+				5FCEA99D1988844D00791EF6 /* SettingsViewCell.h */,
+				5FCEA99E1988844D00791EF6 /* SettingsViewCell.m */,
+				5FCEA9A01988848700791EF6 /* SettingsItem.h */,
+				5FCEA9A11988848700791EF6 /* SettingsItem.m */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -348,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCEA99C1987E6CB00791EF6 /* More.plist in Resources */,
 				5FB94092197AAE0100C6FF58 /* InfoPlist.strings in Resources */,
 				5FB940EE197ABE2E00C6FF58 /* Images.xcassets in Resources */,
 			);
@@ -373,14 +392,17 @@
 				5FB940E2197AB83E00C6FF58 /* TabbarItem.m in Sources */,
 				5FB94098197AAE0100C6FF58 /* AppDelegate.m in Sources */,
 				5FB940DB197AB50400C6FF58 /* MainViewController.m in Sources */,
+				5FCEA99F1988844D00791EF6 /* SettingsViewCell.m in Sources */,
 				5FB940C8197AB39300C6FF58 /* HallViewController.m in Sources */,
 				5FB940E1197AB83E00C6FF58 /* BaseNavigationController.m in Sources */,
 				5FB94094197AAE0100C6FF58 /* main.m in Sources */,
+				5FCEA9A21988848700791EF6 /* SettingsItem.m in Sources */,
 				5FB940F3197ABFFC00C6FF58 /* UIBarButtonItem+add.m in Sources */,
 				5FB940D1197AB3DA00C6FF58 /* LotteryInfoViewController.m in Sources */,
 				5F2A7E32197ACA7300120C2C /* TabBarButton.m in Sources */,
 				5FB940F4197ABFFC00C6FF58 /* UINavigationItem+add.m in Sources */,
 				5FB940CB197AB3AB00C6FF58 /* UnionBuyViewController.m in Sources */,
+				5FCEA99A1987DFFB00791EF6 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

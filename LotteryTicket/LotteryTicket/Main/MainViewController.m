@@ -62,33 +62,36 @@
     MineViewController *mine = [[MineViewController alloc] init];
     self.viewControllers = @[hall, unionBuy, lotteryInfo, luck, mine];
     
+    NSLog(@"tabbarView : %@", NSStringFromCGRect(self.tabBar.frame));
     // 创建自定义的tabbar
 //    [self setTabBarView];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    _tabbarView = [[UIView alloc] initWithFrame:self.tabBar.frame];
-    NSLog(@"tabbarView : %@", NSStringFromCGRect(self.tabBar.frame));
-    [self.view addSubview:_tabbarView];
-    
-    for (int i = 0; i < 5; i++) {
-        NSString *normal = [NSString stringWithFormat:@"TabBar%d", i + 1];
-        NSString *selected = [normal stringByAppendingString:@"Sel"];
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
+        _tabbarView = [[UIView alloc] initWithFrame:self.tabBar.frame];
+        //    NSLog(@"tabbarView : %@", NSStringFromCGRect(self.tabBar.frame));
+        [self.view addSubview:_tabbarView];
         
-        TabBarButton *button = [[TabBarButton alloc] initWithFrame:CGRectMake(i * (self.view.frame.size.width / 5.0), 0, self.view.frame.size.width / 5.0, _tabbarView.frame.size.height)];
-        [button setBackgroundImage:[UIImage imageNamed:normal] forState:UIControlStateNormal];
-        [button setBackgroundImage:[UIImage imageNamed:selected] forState:UIControlStateSelected];
-        button.tag = i;
-        [button addTarget:self action:@selector(itemClick:) forControlEvents:UIControlEventTouchDown];
-        if (i == 0) {
-            _selectedItem = button;
-            button.selected = YES;
-            [self itemClick:button];
+        for (int i = 0; i < 5; i++) {
+            NSString *normal = [NSString stringWithFormat:@"TabBar%d", i + 1];
+            NSString *selected = [normal stringByAppendingString:@"Sel"];
+            
+            TabBarButton *button = [[TabBarButton alloc] initWithFrame:CGRectMake(i * (self.view.frame.size.width / 5.0), 0, self.view.frame.size.width / 5.0, _tabbarView.frame.size.height)];
+            [button setBackgroundImage:[UIImage imageNamed:normal] forState:UIControlStateNormal];
+            [button setBackgroundImage:[UIImage imageNamed:selected] forState:UIControlStateSelected];
+            button.tag = i;
+            [button addTarget:self action:@selector(itemClick:) forControlEvents:UIControlEventTouchDown];
+            if (i == 0) {
+                _selectedItem = button;
+                button.selected = YES;
+                [self itemClick:button];
+            }
+            [_tabbarView addSubview:button];
         }
-        [_tabbarView addSubview:button];
-    }
-
+    });
 }
 //-(void)setTabBarView
 //{
@@ -128,15 +131,14 @@
 
 - (void)itemClick:(UIButton *)item
 {
-    UIViewController *control = self.childViewControllers[item.tag];
-    [self.navigationItem copyFromItem:control.navigationItem];
     if (_selectedItem.tag != item.tag) {
         self.selectedIndex = item.tag;
         item.selected = YES;
         _selectedItem.selected = NO;
         _selectedItem = item;
     }
+    UITableViewController *control = self.childViewControllers[item.tag];
+    [self.navigationItem copyFromItem:control.navigationItem];
 }
-
 
 @end
